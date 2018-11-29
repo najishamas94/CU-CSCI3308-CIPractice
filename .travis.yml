@@ -1,5 +1,3 @@
 language: c
-install: 
-	-make dep
-	-make
+script: make dep && maketest && make
 compiler: gcc
